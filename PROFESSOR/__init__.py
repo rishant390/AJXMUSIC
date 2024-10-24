@@ -13,8 +13,8 @@ dbb()
 heroku()
 
 app = PROF()
-api = SafoneAPI()
 userbot = Userbot()
+api = SafoneAPI()
 
 
 from .platforms import *
@@ -26,3 +26,5 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+
+APP = "ll_DRAGON_MUSIC_BOT"  # connect music api key "Dont change it"
