@@ -1,6 +1,7 @@
 aiofiles
 aiohttp
 apscheduler
+#asyncio==3.4.3
 asyncio
 bard
 stripe==10.7.0
