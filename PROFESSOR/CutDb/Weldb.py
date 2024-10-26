@@ -1,6 +1,6 @@
 from PROFESSOR.CutDb import *
 
-wlcm = dbname["welcome"]
+wlcm = dbname["SachinSanatani"]
 
 async def add_wlcm(chat_id : int):
     return await wlcm.insert_one({"chat_id" : chat_id})
