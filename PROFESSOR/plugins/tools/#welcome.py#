@@ -19,7 +19,7 @@ from pyrogram.types import *
 from logging import getLogger
 from PROFESSOR.utils.prof_ban import admin_filter
 from PIL import ImageChops
-
+#v
 LOGGER = getLogger(__name__)
 
 class WelDatabase:
