@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "II_PROFESSOR_SOURABH_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@Heroku_Admin")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "professor_Sukoon_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "DIVYANSHI_MUSIC_BOT")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "˹ šυкσση ✘ ɱυšιᴄ 🫧 ˼")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "PROFESSOR_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "7074689169").split()))
+EVALOP = list(map(int, getenv("EVALOP", "6469162895").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
 
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PROFESSOR_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Friends_Chatting_Masti_Group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Heroku")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PROFESSORxNETWORK")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
