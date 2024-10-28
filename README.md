@@ -50,7 +50,7 @@
 <h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
 </h3>
 
-[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/prf100rabhAaBb40769374divyanshi40769374/PROFESSOR-MUSIC)
+[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/SYNAXAFSGAGHSHtsgshsjshxshssjaj40769374/GAMExMUSIC)
 
 ## 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋 𝐕𝐈𝐃𝐄𝐎 𝐎𝐍 𝐘𝐎𝐔𝐓𝐔𝐁𝐄
 
