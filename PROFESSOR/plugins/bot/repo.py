@@ -4,14 +4,17 @@ from PROFESSOR import app
 from config import BOT_USERNAME
 
 start_txt = """
-⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ sᴏᴜʀᴀʙʜ ʀᴇᴘᴏs ⌾
+❥ ωєℓ¢σмє тσ тєαм ɾιყα 
 
-◎ ʙʜᴀɢ ʙʜᴏsᴅɪᴋᴇ
+❥ ʀᴇᴘᴏ ᴄʜᴀᴀʜɪʏʀ ᴛᴏ ʙᴏᴛ ᴋᴏ 
 
-◎ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ ʀᴀɴᴅɪ ᴋᴇ.
+❥ 3 ɢᴄ ᴍᴀɪ ᴀᴅᴅ ᴋᴀʀ ᴋᴇ 
 
-◎ ʀᴇᴘᴏ ᴛᴏ ɴᴀ ᴅᴜɴɢᴀ.
-**"""
+❥ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴀᴜʀ sᴄʀᴇᴇɴsʜᴏᴛ 
+     
+❥ ᴏᴡɴᴇʀ ᴋᴏ ᴅᴏ ғɪʀ ʀᴇᴘᴏ ᴍɪʟ sᴀᴋᴛɪ ʜᴀɪ 
+
+"""
 
 
 
@@ -20,34 +23,24 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("⦿ ＡＤＤ ＭＥ ＢＡＢＹ ⦿", url=f"https://t.me/RADHA4MUSIC_BOT?startgroup=True&admin=delete_messages+invite_users+pin_messages")
+          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/RiyaXmusicbot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("⦿ ʜᴇʟᴘ ⦿", url="https://t.me/PROFESSORxNETWORK"),
-          InlineKeyboardButton("⦿ ᴘʀᴏғᴇssᴏʀ ⦿", url="https://t.me/SOURABH_100RABH"),
+          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/KSDHEROKUCC"),
+          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/ll_hunter_lll"),
           ],
                [
-                InlineKeyboardButton("⦿ ᴘʀᴏғᴇssᴏʀ ɴᴇᴛᴡᴏʀᴋ ⦿", url="https://t.me/PROFESSOR_NETWORK"),
-
+                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/Ksd_bot_network"),
 ],
 [
-              InlineKeyboardButton("⦿ ᴜsᴇʀʙᴏᴛ ⦿", url=f"https://t.me/PROFESSOR_X_USERBOT"),
-              InlineKeyboardButton("︎⦿ ᴍᴜsɪᴄ ʀᴇᴘᴏ ⦿", url=f"https://t.me/sourabh_100rabh"),
-       
-    ],
-    [
-              InlineKeyboardButton("⦿ sᴛʀɪɴɢ ɢᴇɴ ⦿", url=f"https://t.me/String_Generate_op_bot"),
-              InlineKeyboardButton("︎⦿ sᴛʀɪɴɢ ʜᴀᴄᴋ ⦿", url=f"https://t.me/ProfessorStringHackRobot"),
-       
-    ],
-    [ 
-          InlineKeyboardButton("⦿ ᴊᴏɪɴ ғᴏʀ sᴘᴀᴍ ʙᴏᴛ sᴜᴅᴏ ⦿", url=f"https://t.me/Professorxnetwork")
+InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/RiyaXmusicbot"),
+
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/c682fa28e16f8b85756ea.jpg",
+        photo="https://files.catbox.moe/ltwmch.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
