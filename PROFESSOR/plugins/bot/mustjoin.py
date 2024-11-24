@@ -27,7 +27,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = ksd_bot_network""
+MUST_JOIN = "ksd_bot_network"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
