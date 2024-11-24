@@ -143,13 +143,20 @@ HELP_17 = """
 HELP_18 = """
 ✽ <b>ᴛᴀɢ-ᴀʟʟ ⏤͟͟͞͞★</b>
 
-❍ /tagall ➠ ʀᴀɴᴅᴏᴍ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-❍ /entag ➠ ᴇɴɢʟɪsʜ ᴛᴀɢ.
-❍ /hitag ➠ ʜɪɴᴅɪ ᴛᴀɢ.
-❍ /shyari ➠ sʜʏᴀʀɪ ᴛᴀɢ.
-❍ /bntag ➠ ʙᴀɴɢʟᴀ ᴛᴀɢ.
-❍ /vctag ➠ ᴠᴄ ɪɴᴠɪᴛᴇ ᴛᴀɢ.
-❍ /utag ➠ ᴛᴀɢ ᴡɪᴛʜ ᴏᴡɴ ᴡʀɪᴛᴇ ᴍᴇssᴀɢᴇ.
+๏ /gmtag ➛ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 
+ᴛᴀɢ sᴛᴏᴘ ⇴ /gmstop
+
+๏ /gntag ➛ ɢᴏᴏᴅ ɴɪɢʜᴛ ᴛᴀɢ sᴛᴏᴘ ⇴ /gnstop
+
+๏ /tagall ➛ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ᴛᴀɢ sᴛᴏᴘ ⇴ /tagoff /tagstop
+
+๏ /hitag ➛ ʀᴀɴᴅᴏᴍ ʜɪɴᴅɪ ᴍᴇssᴀɢᴇ ᴛᴀɢ sᴛᴏᴘ ⇴/histop
+
+๏ /shayari ➛ ʀᴀɴᴅᴏᴍ sʜᴀʏᴀʀɪ ᴛᴀɢ sᴛᴏᴘ ⇴ /shstop
+
+๏ /utag ➛ ᴀɴʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel 
+
+๏ /vctag ➛ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴᴠɪᴛᴇ ᴛᴀɢ sᴛᴏᴘ ⇴ /vcstop
  """
 
 HELP_19 = """
@@ -222,4 +229,3 @@ HELP_24 = """
  ❍ /stack <query>  ➠ Search stackoverflow for the given query.
  ❍ /image (/imgs) <query> ➠ Get the images regarding to your query
 """
-
