@@ -20,7 +20,7 @@ async def _whisper(_, inline_query):
                 title="💌 ᴡʜɪsᴘᴇʀ",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"💌 ᴜsᴀɢᴇ ➠ \n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
-                thumb_url="https://graph.org/file/ef82f289043a4fa74f8ff.jpg",
+                thumb_url="https://files.catbox.moe/489rkf.jpg",
                 reply_markup=switch_btn
             )
         ]
@@ -39,7 +39,7 @@ async def _whisper(_, inline_query):
                     title="💌 ᴡʜɪsᴘᴇʀ",
                     description="๏ ɪɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ !",
                     input_message_content=InputTextMessageContent("๏ ɪɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ!"),
-                    thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+                    thumb_url="https://files.catbox.moe/489rkf.jpg",
                     reply_markup=switch_btn
                 )
             ]
@@ -52,14 +52,14 @@ async def _whisper(_, inline_query):
                     title="💌 ᴡʜɪsᴘᴇʀ",
                     description=f"Send a Whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"💌 ᴀ ᴡʜɪsᴘᴇʀ ᴍᴇssᴀɢᴇ ᴛᴏ {user.first_name} ᴏɴʟʏ ʜᴇ/sʜᴇ ᴄᴀɴ ᴏᴘᴇɴ ɪᴛ.\n\n๏ ᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ."),
-                    thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+                    thumb_url="https://files.catbox.moe/489rkf.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="💌 ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ",
                     description=f"๏ sᴇɴᴅ ᴀ ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🍄 ʏᴏᴜ ᴀʀᴇ sᴇɴᴅɪɴɢ ᴀ ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ {user.first_name} ᴏɴʟʏ ʜᴇ/sʜᴇ ᴄᴀɴ ᴏᴘᴇɴ ɪᴛ.\n\n๏ ᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ."),
-                    thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+                    thumb_url="https://files.catbox.moe/489rkf.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 7074689169]:
+    if user_id not in [from_user, to_user, 7668520999]:
         try:
             await _.send_message(from_user, f"๏ {query.from_user.mention} ɪs ᴛʀʏɪɴɢ ᴛᴏ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡʜɪsᴘᴇʀ.")
         except Unauthorized:
@@ -110,12 +110,12 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💌 ᴡʜɪsᴘᴇʀ",
-            description=f"@Professor_Sukoon_Bot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@Professor_Sukoon_Bot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@Professor_Sukoon_Bot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
-            thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+            description=f"@riyaXmusicbot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@riyaXmusicbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@riyaXmusicbot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
+            thumb_url="https://files.catbox.moe/489rkf.jpg",
             reply_markup=switch_btn
         )
-    ]
+    ] 
     return answers
 
 
@@ -129,10 +129,3 @@ async def bot_inline(_, inline_query):
     else:
         answers = await _whisper(_, inline_query)
         await inline_query.answer(answers[-1], cache_time=0)
-
-
-
-
-
-
-
